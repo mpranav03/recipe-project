@@ -4,47 +4,83 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Delicious Pancakes Recipe</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
 
   <header>
     <h1>Delicious Pancakes</h1>
   </header>
-
-  <section class="ingredients">
-    <h2>Ingredients</h2>
-    <ul>
-      <li>1 cup flour</li>
-      <li>2 tablespoons sugar</li>
-      <li>1 teaspoon baking powder</li>
-      <li>1/2 teaspoon salt</li>
-      <li>1 cup milk</li>
-      <li>1 egg</li>
-      <li>2 tablespoons melted butter</li>
+  <nav>
+    <ul class="nav-list">
+      <li><a href="#ingredients">Ingredients</a></li>
+      <li><a href="#instructions">Instructions</a></li>
+      <li><a href="#quote">Quote</a></li>
+      <li><a href="#image">Image</a></li>
     </ul>
+  </nav>
+
+    <main>
+  <!-- Introduction Section -->
+  <section id="introduction" class="introduction">
+    <h2>Welcome to Pancake Heaven!</h2>
+    <p>
+      Pancakes are a timeless breakfast classic — soft, fluffy, and golden brown. Whether you're cooking for a cozy weekend morning or a cheerful brunch with family, this simple recipe delivers delicious results every time. With just a few ingredients, you’ll whip up the perfect stack in no time.
+    </p>
   </section>
 
-  <section class="instructions">
-    <h2>Instructions</h2>
-    <ol>
-      <li>Mix all dry ingredients together.</li>
-      <li>Whisk in milk, egg, and melted butter.</li>
-      <li>Heat a pan over medium heat.</li>
-      <li>Pour batter and cook until bubbles form. Flip and cook the other side.</li>
-      <li>Serve hot with syrup or fruits!</li>
-    </ol>
-  </section>
+  <article>
+    <div id="ingredients" class="ingredients">
+      <h2>Ingredients</h2>
+      <ul>
+        <li>1 cup flour</li>
+        <li>2 tablespoons sugar</li>
+        <li>1 teaspoon baking powder</li>
+        <li>1/2 teaspoon salt</li>
+        <li>1 cup milk</li>
+        <li>1 egg</li>
+        <li>2 tablespoons melted butter</li>
+      </ul>
+    </div>
 
-<blockquote>
-  “One cannot think well, love well, sleep well, if one has not dined well.”
-</blockquote>
-  <section class="image">
-    <img src="images/pancakes.jpg" alt="A plate of pancakes">
-  </section>
+    <section id="instructions" class="instructions">
+      <h2>Instructions</h2>
+      <ol>
+        <li>Mix all dry ingredients together.</li>
+        <li>Whisk in milk, egg, and melted butter.</li>
+        <li>Heat a pan over medium heat.</li>
+        <li>Pour batter and cook until bubbles form. Flip and cook the other side.</li>
+        <li>Serve hot with syrup or fruits!</li>
+      </ol>
+    </section>
+
+    <div id="quote" class="quote">
+  <blockquote>
+    “Cooking is like love. It should be entered into with abandon or not at all.”<br>
+    <cite>— Harriet Van Horne</cite><br>
+    <a href="https://littleraesbakery.com/2020/02/19/12-quotes-about-cooking-from-the-heart/" target="_blank">
+      Source
+    </a>
+  </blockquote>
+    </div>
+<br>
+    <div id="image" class="image">
+      <img src="images/pan-cake.jpg" alt="A plate of pancakes">
+    </div>
+  </article>
+
+  <aside>
+    <h3>Quick Tips</h3>
+    <ul>
+      <li>Use fresh baking powder for fluffier pancakes.</li>
+      <li>Don't overmix the batter—lumps are okay.</li>
+      <li>Try adding vanilla or cinnamon for extra flavor!</li>
+    </ul>
+  </aside>
+</main>
 
   <footer>
-    <p>Made with ❤️ by [Pranav]</p>
+    <p>Made with ❤️ by Pranav</p>
   </footer>
 
 </body>
